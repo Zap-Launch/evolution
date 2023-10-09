@@ -18,7 +18,9 @@ services:
 
 volumes:
   evolution_instances:
+    external: true
   evolution_store:
+    external: true
 
 networks:
   evolution-net:

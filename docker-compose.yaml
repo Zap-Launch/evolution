@@ -6,7 +6,7 @@ services:
     image: davidsongomes/evolution-api:latest
     restart: always
     ports:
-      - 8080:8080
+      - 8080:8888
     volumes:
       - /opt/evolution/instances:/evolution/instances
       - /opt/evolution/store:/evolution/store
